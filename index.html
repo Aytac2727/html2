@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+   * {
+       box-sizing: border-box;
+   }
+    body {
+        margin:0;
+    }
+   ul {
+       list-style: none;
+   }
+   .bir,.iki {
+       float: left;
+       width: 50%;
+   }
+    .bir {
+        width: 50%;
+        background-color:rgb(60, 143, 143);
+        background-image: url(twitter.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 300% 40%;
+        color: #fff;
+        text-align: center;
+        padding: 232px 0;
+    }
+    .bir li {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+    .iki {
+        padding: 150px;
+        
+    }
+    .iki input {
+        float:right;
+        padding: 12px 20px;
+        border-radius: 25px;
+        background: transparent;
+        border: 1px violet solid;
+
+    }
+    .iki button {
+        width: 100%;
+        padding: 12px 0;
+        border-radius: 25px;
+        margin: 10px 0;
+        border: none;
+        background-color: teal;
+    }
+    .iki .btnlog {
+        background: transparent;
+        border: 1px solid blue;
+    }
+    .iki .btnlog:hover {
+        color: blueviolet;
+    }
+    </style>
+</head>
+<body>
+    <div class="bir">
+       <ul>
+           <li>&#x273A;Follow your interests.</li>
+           <li>✸Hear what people are talking about.</li>
+           <li>&#x2718;Join the conversation.</li>
+       </ul>
+    </div>   
+    <div class="iki">
+ <img src="twitter.png" width="9%" alt="twitter logo">
+ <input type="button" value="Log in">
+<h2>See what's happening in the world right now</h2>
+<p>Join twitter today</p>
+<button>Sign up</button>
+<button class="btnlog">Log in</button>
+    </div>
+</body>
+</html>
